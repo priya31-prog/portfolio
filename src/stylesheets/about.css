@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.about-section {
+    padding: 6rem 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.profile-card {
+    background: #e9ecef;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image-container {
+    margin-bottom: 15px;
+    justify-items: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+.profile-info h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.title {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.quick-info {
+    font-size: 14px;
+    color: #495057;
+}
+
+/* Tab Navigation */
+.tab-navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background: transparent;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.tab-button:hover {
+    background: #007bff;
+    color: white;
+}
+
+.tab-button.active {
+    background: #007bff;
+    color: white;
+}
+
+/* Tab Content */
+.tab-content {
+    text-align: center;
+}
+
+.tab-content h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.tab-content p {
+    font-size: 16px;
+    color: #343a40;
+}
+
+/* Highlight Cards */
+.highlight-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.highlight-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.highlight-card:hover {
+    transform: translateY(-5px);
+}
+
+.highlight-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.highlight-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.highlight-card p {
+    font-size: 14px;
+    color: #6c757d;
+}
