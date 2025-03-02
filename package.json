@@ -55,5 +55,7 @@
     "postcss": "^8.5.3",
     "postcss-loader": "^8.1.1",
     "tailwindcss": "^4.0.9"
-  }
+  },
+  "homepage": "https://priya31-prog.github.io/portfolio"
+
 }

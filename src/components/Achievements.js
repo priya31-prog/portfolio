@@ -19,24 +19,20 @@ const Achivements = () => {
       
       'desciption': 'Awarded as a star performer of the Quarter(JUL - SEPT)',
       'img': '/images/star_performer.jpg',
-
-      // public\star_performer.jpg
-    // background-image: url(../images/mobile_bg.jpg);
-      
     },
     {
      
       'desciption': "Fostered a collaborative team environment that improved communication and problem-solving, leading to a 15% increase in overall productivity",
-      'img': '../images/team_work.jpg',
+      'img': '/images/team_work.jpg',
     },
      {
      
       'desciption': "Developed the User Interfaces without any defects",
-      'img': '../images/zero-defect.png',
+      'img': '/images/zero-defect.png',
     },
     {
       'desciption': "Integrated complex payment methods and worked on NPCI to initiate payments.",
-      'img': '../images/payment.jpg',
+      'img': '/images/payment.jpg',
     }
     ];
     
@@ -51,7 +47,7 @@ const Achivements = () => {
                   achivements.map((activities, index) => (
                     <div className='bg-blue-100 h-[250px] text-black rounded-xl'>
                       <div className='h-35 rounded-t-xl flex justify-center item-center p-4'>
-                        <img src={process.env.PUBLIC_URL + activities.img} alt='hello' className='h-24 w-24 rounded-full'/>
+                        <img src={process.env.PUBLIC_URL + activities.img} alt='achivements' className='h-24 w-24 rounded-full'/>
                       </div>
                       <div className='flex flex-col justify-center items-center gap-4 p-4' >
                         <p className='text-xs'>{activities.desciption}</p>
